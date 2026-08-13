@@ -61,7 +61,7 @@ purrr::walk(
   list(
     c("logradouros.geojson", "GeoJSON"),
     c("logradouros.parquet", "Parquet"),
-    c("logradouros.csv", "CSV")
+    c("logradouros.sqlite", "SQLite")
   ),
   ~ sf::write_sf(logradouros_limpo, .x[1], driver = .x[2], quiet = TRUE)
 )

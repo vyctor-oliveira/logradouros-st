@@ -6,7 +6,7 @@ Uma maneira mais rápida de visualizar todos as ruas, avenidas, travessas e seme
 
 ## Como executar?
 
-Com o [R instalado](https://cran.r-project.org/doc/contrib/Itano-installation.pdf) no sistema, basta:
+Com o [R instalado](https://cran.r-project.org/doc/contrib/Itano-installation.pdf) no sistema, basta executar:
 
 ```bash
 Rscript -e getkml.R 
@@ -20,5 +20,5 @@ uvr run getkml.R
 
 ## Visualização
 
-[Versão para consulta](https://lite.datasette.io)
+[Versão para consulta](https://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logradouros.parquet&metadata=https://github.com/vyctor-oliveira/logradouros-st/blob/main/_metadata.yml) (Demora um pouquinho para carregar)
 
