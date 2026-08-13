@@ -1,14 +1,12 @@
 title: Logradouros de Serra Talhada
 description_html: |-
   <p>Uma maneira mais rápida de visualizar todos as ruas, avenidas, travessas e semelhantes da cidade de Serra Talhada, Pernambuco.</p>
-  <br>
-  <p><a href="https://www.google.com/maps/d/u/0/viewer?mid=1c2ju_HcCjBugKl4mwtXQ9lET2bHofd1O&ll=-8.002444472319501%2C-38.290630626708996&z=13" target=_blank >Dados originais</a> pela Secretaria de Finanças da Prefeitura Municipal de Serra Talhada.
+  <p>Dados originais pela Secretaria de Finanças da Prefeitura Municipal de Serra Talhada.</p>
 license: ODbL
 license_url: https://opendatacommons.org/licenses/odbl/
 source: Secretaria Municipal de Finanças de Serra Talhada
 source_url: https://www.google.com/maps/d/u/0/viewer?mid=1c2ju_HcCjBugKl4mwtXQ9lET2bHofd1O&ll=-8.002444472319501%2C-38.290630626708996&z=13
 databases:
-  fixtures:
     tables:
       logradouros:
         columns:
@@ -18,14 +16,3 @@ databases:
           codigo: Código do logradouro.
           cep: Endereçamento do logradouro nos Correios.
           geometry: Coordenada geográfica do logradouro.
-      no_primary_key:
-        hidden: true
-    queries:
-      neighborhood_search:
-        sql: |-
-          select neighborhood, facet_cities.name, state
-          from facetable join facet_cities on facetable.city_id = facet_cities.id
-          where neighborhood like '%' || :text || '%' order by neighborhood;
-        title: Search neighborhoods
-        description_html: |-
-          <p>This demonstrates <em>basic</em> LIKE search

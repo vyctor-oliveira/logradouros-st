@@ -20,5 +20,5 @@ uvr run getkml.R
 
 ## Visualização
 
-[Versão para consulta](https://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logradouros.parquet&metadata=https://github.com/vyctor-oliveira/logradouros-st/blob/main/_metadata.yml) (Demora um pouquinho para carregar)
+[Versão para consulta](https://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logrhttps://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logradouros.parquet&metadata=https://github.com/vyctor-oliveira/logradouros-st/blob/main/_metadata.yml#/data/logradouros) (Demora um pouquinho para carregar)
 
