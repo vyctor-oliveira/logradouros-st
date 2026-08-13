@@ -18,7 +18,9 @@ Alternativamente, se você usa [uvr](https://github.com/nbafrank/uvr/):
 uvr run getkml.R
 ```
 
-## Visualização
+## Visualizando os dados
 
 [Versão para consulta](https://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logrhttps://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logradouros.parquet&metadata=https://github.com/vyctor-oliveira/logradouros-st/blob/main/_metadata.yml#/data/logradouros) (Demora um pouquinho para carregar)
 
+
+[Versão para edição](https://share.geolibre.app/vyctor/logradouros-st)
