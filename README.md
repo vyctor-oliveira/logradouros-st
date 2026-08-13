@@ -1,7 +1,6 @@
 # Logradouros de Serra Talhada
 
-![Datasette Lite](https://img.shields.io/badge/abrir_tabela_no-Datasette_Lite-blue?style=flat&link=https%3A%2F%2Flite.datasette.io%2F%3Fparquet%3Dhttps%3A%2F%2Fgithub.com%2Fvyctor-oliveira%2Flogradouros-st%2Fblob%2Fmain%2Flogradouros.parquet%26metadata%3Dhttps%3A%2F%2Fgithub.com%2Fvyctor-oliveira%2Flogradouros-st%2Fblob%2Fmain%2F_metadata.yml%23%2Fdata%2Flogradouros)
- ![Static Badge](https://img.shields.io/badge/editar_mapa_no-GeoLibre-blue?style=flat&link=https%3A%2F%2Fshare.geolibre.app%2Fvyctor%2Flogradouros-st)
+[![Datasette Lite](https://img.shields.io/badge/abrir_tabela_no-Datasette_Lite-blue?style=flat)](https://lite.datasette.io/?parquet=https://github.com/vyctor-oliveira/logradouros-st/blob/main/logradouros.parquet&metadata=https://github.com/vyctor-oliveira/logradouros-st/blob/main/_metadata.yml#/data/logradouros) [![GeoLibre](https://img.shields.io/badge/editar_mapa_no-GeoLibre-blue)](https://share.geolibre.app/vyctor/logradouros-st)
 
 Uma maneira mais rápida de visualizar e editar todas as ruas, avenidas, travessas e semelhantes da cidade de Serra Talhada, Pernambuco.
 
